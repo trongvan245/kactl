@@ -9,6 +9,8 @@
  */
 #pragma once
 
+#include "../../content/data-structures/ImplicitSegTree.h"
+
 class SparseSegtree {
   private:
     struct Node {
