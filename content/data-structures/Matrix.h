@@ -63,11 +63,11 @@ struct Matrix {
     Matrix(const vector <vector <type> > &d): data(d) {
 
         // Kiểm tra các hàng có cùng size không và size có lớn hơn 0 hay không
-        // Tuy nhiên không thực sự cần thiết, ta có thể bỏ các dòng /**/ đi
-        /**/ assert(d.size());
-        /**/ int size = d[0].size();
-        /**/ assert(size);
-        /**/ for (auto x : d) assert(x.size() == size);
+        // Tuy nhiên không thực sự cần thiết, ta có thể bỏ các dòng  đi
+         assert(d.size());
+         int size = d[0].size();
+         assert(size);
+         for (auto x : d) assert(x.size() == size);
     }
 
     // In ra ma trận.
