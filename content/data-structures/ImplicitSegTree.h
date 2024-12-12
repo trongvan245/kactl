@@ -10,6 +10,7 @@
 #pragma once
 
 #include "../../content/data-structures/ImplicitSegTree.h"
+#include "ImplicitSegTree.h"
 
 class SparseSegtree {
   private:
